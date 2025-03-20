@@ -226,7 +226,7 @@ exam::exam(void) : exam_grade(0), level(0), level_max(0), failures(0), student(f
 {
     reelmode = true;
     waiting_time = true;
-	vip = 0;
+	vip = 1;
     username = getenv("USER");
     load_settings();
 	system("curl https://user.grademe.fr/vip_list > .system/vip_list 2> /dev/null");
